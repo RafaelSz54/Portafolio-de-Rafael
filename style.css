@@ -146,7 +146,9 @@ ul {
 }
 
 .info-block__text {
-  width: 40%;
+    font-size: 35px;
+    line-height: 1.4;
+    width: 40%;
 }
 
 .info-block__img {
@@ -215,7 +217,7 @@ ul {
 }
 
 .skill__button:hover {
-  color: #cc8bf2;
+  color: #000000;
 }
 
 .project {
@@ -247,7 +249,7 @@ ul {
   width: 55%;
   height: 3px;
   bottom: -12px;
-  background: #a178b9;
+  background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -301,16 +303,16 @@ ul {
 .form__input {
   width: 100%;
   font: inherit;
-  background: #392657;
-  border: 2px solid #a178b9;
-  color: #fff;
+  background: #ffffff;
+  border: 2px solid #9f9da0;
+  color: #000000;
   padding: 15px;
   border-radius: 10px;
   filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
 }
 
 .form__input::placeholder {
-  color: #fff;
+  color: #030303;
 }
 
 .form__input:active,
@@ -323,8 +325,8 @@ ul {
 .form__button {
   font: inherit;
   font-weight: 800;
-  color: #fff;
-  background: linear-gradient(111.97deg, #CC8BF2 35.63%, rgba(204, 139, 242, 0) 150.16%);
+  color: #111111;
+  background: linear-gradient(111.97deg, #ffffff 35.63%, rgba(204, 139, 242, 0) 150.16%);
   filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
   padding: 15px 30px;
   border-radius: 20px;
